@@ -3,7 +3,7 @@ return {
   config = function()
     require("gitsigns").setup({
       numhl = true,
-      signcolumn = false,
+      signcolumn = true,
     })
   end,
 }
