@@ -1,4 +1,5 @@
 return {
+  --window notify
   {
     "folke/noice.nvim",
     opts = function(_, opts)
