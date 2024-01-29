@@ -4,12 +4,12 @@ return {
     "nvim-telescope/telescope-file-browser.nvim",
   },
   keys = {
+    -- {
+    --   "<Leader>e",
+    --   false,
+    -- },
     {
-      "<Leader>e",
-      false,
-    },
-    {
-      "<Leader>e",
+      "<M-e>",
       -- ":Telescope file_browser path=%:p:h<cr>",
       function()
         require("telescope").extensions.file_browser.file_browser({
